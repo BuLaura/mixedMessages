@@ -71,6 +71,7 @@ p {
 
 #message {
     background-image: url('./resources/paper.jpeg');
+    background-color: rgb(247, 247, 236);
     border: 0.1rem solid rgba(0, 0, 0, 0.5);
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
     position: relative;
