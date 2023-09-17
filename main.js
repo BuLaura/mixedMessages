@@ -18,7 +18,7 @@ const fortuneCookie = {
         } else if (chances === 50) {
             return error;
         } 
-        return `Your fortune cookie reads: ${mixedMessage.join(" ")} & your lucky number is: ${this.luckyNumber()} !`;
+        return `Your fortune cookie reads: ${mixedMessage.join(" ")} & Your lucky number is: ${this.luckyNumber()} !`;
     }
 }
 
