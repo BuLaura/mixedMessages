@@ -52,7 +52,7 @@ h3 {
 }
 
 p {
-    margin: 1rem auto;
+    margin: 1rem;
     font-weight: 600;
 }
 
@@ -81,3 +81,16 @@ p {
     justify-content:center;
 }
 
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+    #cookie {
+        width: 15rem;
+        height: auto;
+    }
+    #message {
+        margin: -3rem;
+        min-width: 80%;
+    }
+}
