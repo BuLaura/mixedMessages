@@ -13,8 +13,10 @@ Techenologies:
 + JavaScript Methods
 + JavaScript Objects
 + JavaScript Arrays
++ HTML
++ CSS
 
 Licence:
 --------
-Free to use for anyone
+Free to use for anyone.
 

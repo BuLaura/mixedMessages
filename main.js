@@ -24,10 +24,22 @@ const fortuneCookie = {
 
 // test function
 
-const test = (fortuneCookie) => { 
+/*const test = (fortuneCookie) => { 
     for (let i = 0; i < 200; i++) {
         console.log(fortuneCookie.newLuck);
     }
 }
 
-test(fortuneCookie);
+test(fortuneCookie); */
+
+let cookie = document.getElementById("cookie");
+let message = document.getElementById("message");
+
+cookie.onclick = function() {
+    if (message.style.visibility === "visible") {
+        message.style.visibility = "hidden";
+    } else {
+        message.style.visibility = "visible";
+        message.getElementsByTagName("p")[0].innerHTML = fortuneCookie.newLuck;
+    }
+}
