@@ -7,7 +7,7 @@ How to use:
 -----------
 call FortuneCookie.newLuck
 
-Techenologies:
+Technologies:
 ------------
 
 + JavaScript Methods
@@ -16,7 +16,7 @@ Techenologies:
 + HTML
 + CSS
 
-Licence:
+License:
 --------
 Free to use for anyone.
 
